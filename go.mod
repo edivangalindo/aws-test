@@ -1,4 +1,4 @@
-module aws-test
+module github.com/edivangalindo/aws-test
 
 go 1.18
 
