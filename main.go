@@ -16,7 +16,7 @@ func main() {
 	stat, _ := os.Stdin.Stat()
 
 	if (stat.Mode() & os.ModeCharDevice) != 0 {
-		fmt.Fprintln(os.Stderr, "No tokens detected. Hint: cat tokens.txt | aws-test")
+		fmt.Fprintln(os.Stderr, "No credentials detected. Hint: cat AKIAEXAMPLE000000 askcaExampleSecretGSkdsmcfklams/asdSDasmgkasd123 | aws-test")
 		os.Exit(1)
 	}
 
