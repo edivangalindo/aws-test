@@ -1,7 +1,7 @@
 # aws-test
 A little tool to fastly test if AWS IAM keys are valid
 
-The idea for this tool came after a conversation with @Grisolfi and @rodrigoramosrs about testing AWS related credentials.
+The idea for this tool came after a conversation with [Grisolfi](https://github.com/Grisolfi) and [rodrigoramosrs](https://github.com/rodrigoramosrs) about testing AWS related credentials.
 
 This tool will perform a "sts get-caller-identity" without needing to have awscli installed on the machine or having to change your environment variables.
 
